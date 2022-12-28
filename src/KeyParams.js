@@ -8,10 +8,16 @@ import keys from "./keys.json";
 
 const KeyParams = () => {
   const [newKey, setNewKey] = useState(keys[0]);
-  const myScale = GetChords(newKey);
+  
+
+  const GetMajorChord = (X) => {
+    let majorChord = [[X.notes[0]], [X.notes[2]], [X.notes[4]], [X.notes[6]]];
+    return majorChord;
+  };
+  const myScale = GetMajorChord(newKey);
 
   return (
-    <div>
+    <div className="container">
       <h2>Select a key</h2>
       <select
         id="keylist"
@@ -37,10 +43,7 @@ const KeyParams = () => {
       >
         Random Key
       </button>
-      <h3>{`notes in ${myScale[0]} ${newKey.type} key:`}</h3>
-      <div>{newKey.notes.map((n) => `${n} `)}</div>
-      <h3>{`notes in ${myScale[0]} ${newKey.type} (7th) chord:`}</h3>
-      <div>{myScale.map((n) => `${n} `)}</div>
+      <GetChords {...newKey}/>
     </div>
   );
 };

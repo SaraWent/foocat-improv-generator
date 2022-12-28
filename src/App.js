@@ -1,5 +1,5 @@
 import React from "react";
-
+import './App.css';
 import KeyParams from './KeyParams';
 
 // pull major/minor key from note
