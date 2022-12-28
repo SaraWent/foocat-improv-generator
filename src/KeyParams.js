@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+import keys from "./keys.json";
 
 
 const allNotes = [["A"], ["A#", "Bb"], ["B", "Cb"], ["C"], ["C#", "Db"], ["D"], ["D#", "Eb"], ["E"], ["F"], ["F#", "Gb"], ["G"], ["G#", "Ab"]];
@@ -13,36 +14,33 @@ const isMajor = true;
 const GetMajorChord = (X) => {
   let first, second, third, fourth;
   let majorChord;
+  let length = X.notes.length;
 
-  for (let i = 0; i < allNotes.length; i++) {
-    if (allNotes[i].includes(X)) {
-      first = i;
-    }
-  }
+  
 
-  second =
-    first + 4 >= allNotes.length ? 4 - (allNotes.length - first) : first + 4;
-  third =
-    first + 7 >= allNotes.length ? 7 - (allNotes.length - first) : first + 7;
-  fourth =
-    first + 11 >= allNotes.length ? 11 - (allNotes.length - first) : first + 11;
+//   second =
+//     4 >= length ? 4 - (length) : 4 ;
+//   third =
+//     first + 7 >= allNotes.length ? 7 - (allNotes.length - first) : first + 7;
+//   fourth =
+//     first + 11 >= allNotes.length ? 11 - (allNotes.length - first) : first + 11;
 
-  console.log(
-    `first: ${first}, note: ${allNotes[first][0]}, fourth: ${fourth}, length: ${allNotes.length}`
-  );
+//   console.log(
+//     `first: ${first}, note: ${allNotes[first][0]}, fourth: ${fourth}, length: ${allNotes.length}`
+//   );
 
   majorChord = [
-    [allNotes[first][0]],
-    [allNotes[second][0]],
-    [allNotes[third][0]],
-    [allNotes[fourth][0]],
+    [X.notes[0]],
+    [X.notes[2]],
+    [X.notes[4]],
+    [X.notes[6]],
   ];
 
   return majorChord;
 };
 
 const KeyParams = () => {
-  const [newKey, setNewKey] = useState("A");
+  const [newKey, setNewKey] = useState(keys[0]);
   const myScale = GetMajorChord(newKey);
 
   return (
@@ -50,16 +48,18 @@ const KeyParams = () => {
       <h2>Select a key</h2>
       <select
         onChange={(e) => {
-          setNewKey(e.target.value);
+            // var result = myArray.find(item => item.id === 2);
+          setNewKey(keys.find(k => k.name === e.target.value));
           // setBreed("");
         }}
       >
-        {allKeys.map((k) => (
-          <option key={k} value={k}>
-            {k}
+        {keys.map((k) => (
+          <option key={`${k.root}${k.type}`} value={k.name}>
+            {k.name}
           </option>
         ))}
       </select>
+      {newKey.notes}
       <h2>All Notes</h2>
       <div>{allNotes.map((n) => `(${n}), `)}</div>
       <h2>{`notes in ${myScale[0]} ${
