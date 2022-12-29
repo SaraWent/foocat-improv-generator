@@ -1,27 +1,39 @@
 import React from "react";
-import { useState } from "react";
-import chords from "./chords.json";
+import minorChords from "./minorChords.json";
+import majorChords from "./majorChords.json";
 
+const GetChords = ({props}) => {
 
-const GetChords = (props) => {
+    let thisKey = majorChords;
 
-    console.log(props);
+    if (props.type === "Major") {
+        thisKey = majorChords;
+    } else {
+        thisKey = minorChords;
+    };
+
     return (
         <div>
             <h3>{`notes in ${props.root[0]} ${props.type} key:`}</h3>
-             <div>{props.notes.map((n) => `${n} `)}</div>
-
+            <div className="notes">{props.notes.map((n) => (
+                <span className="note" key={n.name}>{n}</span>
+            ))}</div>
 
             <h3>{`chords in ${props.root[0]} ${props.type} key:`}</h3>
 
-            {chords.map((c) => (
-            <p>
-            <b>{c.name}: {props.root} {c.type}: </b> 
-            {props.notes[c.i[0]]}, 
-            {props.notes[c.i[1]]}, 
-            {props.notes[c.i[2]]},
-            {props.notes[c.i[3]]}
-            </p>
+            {thisKey.map((c) => (
+            <div className="all-notes" key={c.name}>
+            <b>
+                <span className="chord-type">{c.name}:</span> 
+                <span className="chord-name">{props.root} {c.type[1]}: </span>
+            </b> 
+            <div className="notes">
+            <span className="note">{props.notes[c.i[0]]}, </span>
+            <span className="note">{props.notes[c.i[1]]}, </span>
+            <span className="note">{props.notes[c.i[2]]}, </span>
+            <span className="note">{props.notes[c.i[3]]} </span>
+            </div>
+            </div>
         ))}     
            
         </div>

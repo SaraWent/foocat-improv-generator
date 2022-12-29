@@ -1,6 +1,63 @@
+
+
 .container {
+  font-family: greycliff-cf,sans-serif;
+  font-weight: 500;
+  font-style: normal;
   margin: 2em auto;
   max-width: 500px;
   border: 1px solid #eaeaea;
   padding: 1em 2em;
+}
+
+.controls {
+  display: block;
+  padding: 1rem;
+  background-color: #eaeaea;
+  border-radius: .25em;
+  text-align: center;
+
+}
+
+.controls select, .controls button {
+  min-width: 150px;
+  margin: 0 1em;
+  height: 1.5rem;
+  text-align: center;
+  border-radius: .25em;
+}
+
+button {
+  color: #fff;
+  background-color: #888;
+  border: none;
+  
+}
+
+div.all-notes {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+}
+
+span.chord-type {
+  display: inline-block;
+  min-width: 50px;
+  font-size: .8em;
+}
+
+span.chord-name {
+  display: inline-block;
+  min-width: 170px;
+  font-size: .8em;
+}
+
+div.notes {
+  width: 150px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+span.note {
+  display: flex;
 }

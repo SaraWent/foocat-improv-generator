@@ -1,0 +1,39 @@
+[
+
+    {
+        "name": "i",
+        "type": ["minor", "minor 7th"],
+        "i": [0, 2, 4, 6]
+    },
+    {
+        "name": "iidim",
+        "type": ["diminished", "minor seventh flat five"],
+        "i": [1, 3, 5, 0]
+    },
+    {
+        "name": "III",
+        "type": ["Major", "Major 7th"],
+        "i": [2, 4, 6, 1]
+    },
+    {
+        "name": "iv",
+        "type": ["minor", "minor 7th"],
+        "i": [3, 5, 0, 2]
+    },
+    {
+        "name": "v",
+        "type": ["minor", "minor 7th"],
+        "i": [4, 6, 1, 3]
+    },
+    {
+        "name": "VI",
+        "type": ["Major", "Major 7th"],
+        "i": [5, 0, 2, 4]
+    },
+    {
+        "name": "VII",
+        "type": ["Major", "dominant seventh"],
+        "i": [6, 1, 3, 5]
+    }
+]
+
