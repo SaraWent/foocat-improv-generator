@@ -15,9 +15,9 @@ const GetChords = ({props}) => {
     return (
         <div>
             <h3>{`notes in ${props.root[0]} ${props.type} key:`}</h3>
-            <div className="notes">{props.notes.map((n) => (
-                <span className="note" key={n.name}>{n}</span>
-            ))}</div>
+            {props.notes.map((n) => (
+                <span key={n.name}>{`${n}, `}</span>
+            ))}
 
             <h3>{`chords in ${props.root[0]} ${props.type} key:`}</h3>
 
