@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SaraWent/foocat-improv-generator/static/css/main.d5dd3817.css",
-    "main.js": "/SaraWent/foocat-improv-generator/static/js/main.50cd0bc0.js",
-    "static/js/787.f1f2dcbe.chunk.js": "/SaraWent/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js",
-    "static/media/foocat.svg": "/SaraWent/foocat-improv-generator/static/media/foocat.feced01e3331936fe7af30b53079fb6d.svg",
-    "index.html": "/SaraWent/foocat-improv-generator/index.html",
-    "main.d5dd3817.css.map": "/SaraWent/foocat-improv-generator/static/css/main.d5dd3817.css.map",
-    "main.50cd0bc0.js.map": "/SaraWent/foocat-improv-generator/static/js/main.50cd0bc0.js.map",
-    "787.f1f2dcbe.chunk.js.map": "/SaraWent/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js.map"
+    "main.css": "/static/css/main.d5dd3817.css",
+    "main.js": "/static/js/main.d019b973.js",
+    "static/js/787.f1f2dcbe.chunk.js": "/static/js/787.f1f2dcbe.chunk.js",
+    "static/media/foocat.svg": "/static/media/foocat.feced01e3331936fe7af30b53079fb6d.svg",
+    "index.html": "/index.html",
+    "main.d5dd3817.css.map": "/static/css/main.d5dd3817.css.map",
+    "main.d019b973.js.map": "/static/js/main.d019b973.js.map",
+    "787.f1f2dcbe.chunk.js.map": "/static/js/787.f1f2dcbe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5dd3817.css",
-    "static/js/main.50cd0bc0.js"
+    "static/js/main.d019b973.js"
   ]
 }
