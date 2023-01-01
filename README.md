@@ -1,3 +1,28 @@
+# foo.cat Improv Generator Alpha 1.0
+
+Created from a need to push myself out of my comfort zone on the violin and to think less in sheet music and more in chords.
+
+This app includes all the keys included on a circle of fifths, and provides the notes and chords in each key.
+
+&nbsp;
+
+to do next:
+
+• create an svg circle of fifths through which user can choose which keys are included in the list and random selection.
+
+• include common key progressions for each key
+
+&nbsp;
+
+Info for this app inspired by and created from:
+
+http://www.piano-keyboard-guide.com/chords-by-key.html
+
+&nbsp;
+
+&nbsp;
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
