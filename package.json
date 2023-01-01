@@ -2,7 +2,7 @@
   "name": "improv-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SaraWent/foocat-improv-generator",
+  "homepage": "http://SaraWent.github.io/foocat-improv-generator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
