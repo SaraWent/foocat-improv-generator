@@ -40,7 +40,7 @@ span.logo-sub {
 .controls select, .controls button {
   min-width: 150px;
   margin: 0 0.5em;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
   border-radius: .25em;
 }
