@@ -4,7 +4,6 @@
   color: #2D3640;
 }
 
-
 .container {
   background-color: #fff;
   margin: 0 auto;
@@ -27,11 +26,15 @@ span.logo-sub {
 
 .controls {
   display: block;
-  padding: 1rem;
+  padding: .5em 1em 1em;
   background-color: #B3D6FF;
   border-radius: .25em;
   text-align: center;
 
+}
+
+.controls h2 {
+  margin: .5em;
 }
 
 .controls select, .controls button {

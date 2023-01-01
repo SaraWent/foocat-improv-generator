@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import GetChords from "./GetChords";
-import keys from "./keys.json";
+import keys from "./data/keys.json";
 import foocat from "./img/foocat.svg"
 
 

@@ -1,6 +1,6 @@
 import React from "react";
-import minorChords from "./minorChords.json";
-import majorChords from "./majorChords.json";
+import minorChords from "./data/minorChords.json";
+import majorChords from "./data/majorChords.json";
 
 const GetChords = ({props}) => {
 
@@ -16,7 +16,7 @@ const GetChords = ({props}) => {
         <div>
             <h3>{`notes in ${props.root} ${props.type} key:`}</h3>
             {props.notes.map((n) => (
-                <span key={n.name}>{`${n}, `}</span>
+                <span key={n.name}>{`${n} `}</span>
             ))}
 
             <h3>{`chords in ${props.root} ${props.type} key:`}</h3>
@@ -28,9 +28,9 @@ const GetChords = ({props}) => {
                 <span className="chord-name">{props.root} {c.type[1]}: </span>
             </b> 
             <div className="notes">
-            <span className="note">{props.notes[c.i[0]]}, </span>
-            <span className="note">{props.notes[c.i[1]]}, </span>
-            <span className="note">{props.notes[c.i[2]]}, </span>
+            <span className="note">{props.notes[c.i[0]]} </span>
+            <span className="note">{props.notes[c.i[1]]} </span>
+            <span className="note">{props.notes[c.i[2]]} </span>
             <span className="note">{props.notes[c.i[3]]} </span>
             </div>
             </div>
