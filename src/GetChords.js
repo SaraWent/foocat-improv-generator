@@ -14,12 +14,12 @@ const GetChords = ({props}) => {
 
     return (
         <div>
-            <h3>{`notes in ${props.root[0]} ${props.type} key:`}</h3>
+            <h3>{`notes in ${props.root} ${props.type} key:`}</h3>
             {props.notes.map((n) => (
                 <span key={n.name}>{`${n}, `}</span>
             ))}
 
-            <h3>{`chords in ${props.root[0]} ${props.type} key:`}</h3>
+            <h3>{`chords in ${props.root} ${props.type} key:`}</h3>
 
             {thisKey.map((c) => (
             <div className="all-notes" key={c.name}>
