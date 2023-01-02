@@ -1,8 +1,8 @@
 [
   {
-    "name": "C Major",
+    "name": "C major",
     "root": "C",
-    "type": "Major",
+    "type": "major",
     "notes": ["C", "D", "E", "F", "G", "A", "B"]
   },
   {
@@ -12,171 +12,171 @@
     "notes": ["A", "B", "C", "D", "E", "F", "G"]
   },
   {
-    "name": "G Major",
+    "name": "G major",
     "root": "G",
-    "type": "Major",
-    "notes": ["G", "A", "B", "C", "D", "E", "F#"]
+    "type": "major",
+    "notes": ["G", "A", "B", "C", "D", "E", "F♯"]
   },
   {
     "name": "E minor",
     "root": "E",
     "type": "minor",
-    "notes": ["E", "F#", "G", "A", "B", "C", "D"]
+    "notes": ["E", "F♯", "G", "A", "B", "C", "D"]
   },
   {
-    "name": "D Major",
+    "name": "D major",
     "root": "D",
-    "type": "Major",
-    "notes": ["D", "E", "F#", "G", "A", "B", "C#"]
+    "type": "major",
+    "notes": ["D", "E", "F♯", "G", "A", "B", "C♯"]
   },
   {
     "name": "B minor",
     "root": "B",
     "type": "minor",
-    "notes": ["B", "C#", "D", "E", "F#", "G", "A"]
+    "notes": ["B", "C♯", "D", "E", "F♯", "G", "A"]
   },
   {
-    "name": "A Major",
+    "name": "A major",
     "root": "A",
-    "type": "Major",
-    "notes": ["A", "B", "C#", "D", "E", "F#", "G#"]
+    "type": "major",
+    "notes": ["A", "B", "C♯", "D", "E", "F♯", "G♯"]
   },
   {
-    "name": "F# minor",
-    "root": "F#",
+    "name": "F♯ minor",
+    "root": "F♯",
     "type": "minor",
-    "notes": ["F#", "G#", "A", "B", "C#", "D", "E"]
+    "notes": ["F♯", "G♯", "A", "B", "C♯", "D", "E"]
   },
   {
-    "name": "E Major",
+    "name": "E major",
     "root": "E",
-    "type": "Major",
-    "notes": ["E", "F#", "G#", "A", "B", "C#", "D#"]
+    "type": "major",
+    "notes": ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"]
   },
   {
-    "name": "C# minor",
-    "root": "C#",
+    "name": "C♯ minor",
+    "root": "C♯",
     "type": "minor",
-    "notes": ["C#", "D#", "E", "F#", "G#", "A", "B"]
+    "notes": ["C♯", "D♯", "E", "F♯", "G♯", "A", "B"]
   },
   {
-    "name": "B Major",
+    "name": "B major",
     "root": "B",
-    "type": "Major",
-    "notes": ["B", "C#", "D#", "E", "F#", "G#", "A#"]
+    "type": "major",
+    "notes": ["B", "C♯", "D♯", "E", "F♯", "G♯", "A♯"]
   },
   {
-    "name": "G# minor",
-    "root": "G#",
+    "name": "G♯ minor",
+    "root": "G♯",
     "type": "minor",
-    "notes": ["G#", "A#", "B", "C#", "D#", "E", "F#"]
+    "notes": ["G♯", "A♯", "B", "C♯", "D♯", "E", "F♯"]
   },
   {
-    "name": "Cb Major",
-    "root": "Cb",
-    "type": "Major",
-    "notes": ["Cb", "Db", "Eb", "Fb", "Gb", "Ab", "Bb"]
+    "name": "C♭ major",
+    "root": "C♭",
+    "type": "major",
+    "notes": ["C♭", "D♭", "E♭", "F♭", "G♭", "A♭", "B♭"]
   },
   {
-    "name": "Ab minor",
-    "root": "Ab",
+    "name": "A♭ minor",
+    "root": "A♭",
     "type": "minor",
-    "notes": ["Ab", "Bb", "Cb", "Db", "Eb", "Fb", "Gb"]
+    "notes": ["A♭", "B♭", "C♭", "D♭", "E♭", "F♭", "G♭"]
   },
   {
-    "name": "F# Major",
-    "root": "F#",
-    "type": "Major",
-    "notes": ["F#", "G#", "A#", "B", "C#", "D#", "E#"]
+    "name": "F♯ major",
+    "root": "F♯",
+    "type": "major",
+    "notes": ["F♯", "G♯", "A♯", "B", "C♯", "D♯", "E♯"]
   },
   {
-    "name": "D# minor",
-    "root": "D#",
+    "name": "D♯ minor",
+    "root": "D♯",
     "type": "minor",
-    "notes": ["D#", "E#", "F#", "G#", "A#", "B", "C#"]
+    "notes": ["D♯", "E♯", "F♯", "G♯", "A♯", "B", "C♯"]
   },
   {
-    "name": "Gb Major",
-    "root": "Gb",
-    "type": "Major",
-    "notes": ["Gb", "Ab", "Bb", "Cb", "Db", "Eb", "F"]
+    "name": "G♭ major",
+    "root": "G♭",
+    "type": "major",
+    "notes": ["G♭", "A♭", "B♭", "C♭", "D♭", "E♭", "F"]
   },
   {
-    "name": "Eb minor",
-    "root": "Eb",
+    "name": "E♭ minor",
+    "root": "E♭",
     "type": "minor",
-    "notes": ["Eb", "F", "Gb", "Ab", "Bb", "Cb", "Db"]
+    "notes": ["E♭", "F", "G♭", "A♭", "B♭", "C♭", "D♭"]
   },
   {
-    "name": "C# Major",
-    "root": "C#",
-    "type": "Major",
-    "notes": ["C#", "D#", "E#", "F#", "G#", "A#", "B#", "C#"]
+    "name": "C♯ major",
+    "root": "C♯",
+    "type": "major",
+    "notes": ["C♯", "D♯", "E♯", "F♯", "G♯", "A♯", "B♯", "C♯"]
   },
   {
-    "name": "A# minor",
-    "root": "A#",
+    "name": "A♯ minor",
+    "root": "A♯",
     "type": "minor",
-    "notes": ["A#", "B#", "C#", "C#", "D#", "E#", "F#", "G#"]
+    "notes": ["A♯", "B♯", "C♯", "C♯", "D♯", "E♯", "F♯", "G♯"]
   },
   {
-    "name": "Db Major",
-    "root": "Db",
-    "type": "Major",
-    "notes": ["Db", "Eb", "F", "Gb", "Ab", "Bb", "C"]
+    "name": "D♭ major",
+    "root": "D♭",
+    "type": "major",
+    "notes": ["D♭", "E♭", "F", "G♭", "A♭", "B♭", "C"]
   },
   {
-    "name": "Bb minor",
-    "root": "Bb",
+    "name": "B♭ minor",
+    "root": "B♭",
     "type": "minor",
-    "notes": ["Bb", "C", "Db", "Eb", "F", "Gb", "Ab"]
+    "notes": ["B♭", "C", "D♭", "E♭", "F", "G♭", "A♭"]
   },
   {
-    "name": "Ab Major",
-    "root": "Ab",
-    "type": "Major",
-    "notes": ["Ab", "Bb", "C", "Db", "Eb", "F", "G"]
+    "name": "A♭ major",
+    "root": "A♭",
+    "type": "major",
+    "notes": ["A♭", "B♭", "C", "D♭", "E♭", "F", "G"]
   },
   {
     "name": "F minor",
     "root": "F",
     "type": "minor",
-    "notes": ["F", "G", "Ab", "Bb", "C", "Db", "Eb"]
+    "notes": ["F", "G", "A♭", "B♭", "C", "D♭", "E♭"]
   },
   {
-    "name": "Eb Major",
-    "root": "Eb",
-    "type": "Major",
-    "notes": ["Eb", "F", "G", "Ab", "Bb", "C", "D"]
+    "name": "E♭ major",
+    "root": "E♭",
+    "type": "major",
+    "notes": ["E♭", "F", "G", "A♭", "B♭", "C", "D"]
   },
   {
     "name": "C minor",
     "root": "C",
     "type": "minor",
-    "notes": ["C", "D", "Eb", "F", "G", "Ab", "Bb"]
+    "notes": ["C", "D", "E♭", "F", "G", "A♭", "B♭"]
   },
   {
-    "name": "Bb Major",
-    "root": "Bb",
-    "type": "Major",
-    "notes": ["Bb", "C", "D", "Eb", "F", "G", "A"]
+    "name": "B♭ major",
+    "root": "B♭",
+    "type": "major",
+    "notes": ["B♭", "C", "D", "E♭", "F", "G", "A"]
   },
   {
     "name": "G minor",
     "root": "G",
     "type": "minor",
-    "notes": ["G", "A", "Bb", "C", "D", "Eb", "F"]
+    "notes": ["G", "A", "B♭", "C", "D", "E♭", "F"]
   },
   {
-    "name": "F Major",
+    "name": "F major",
     "root": "F",
-    "type": "Major",
-    "notes": ["F", "G", "A", "Bb", "C", "D", "E"]
+    "type": "major",
+    "notes": ["F", "G", "A", "B♭", "C", "D", "E"]
   },
   {
     "name": "D minor",
     "root": "D",
     "type": "minor",
-    "notes": ["D", "E", "F", "G", "A", "Bb", "C"]
+    "notes": ["D", "E", "F", "G", "A", "B♭", "C"]
   }
 ]

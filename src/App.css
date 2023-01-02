@@ -3,6 +3,9 @@
   background-color: #fff;
   color: #2D3640;
 }
+b {
+  font-weight: 700;
+}
 
 .container {
   background-color: #fff;
@@ -37,6 +40,22 @@ span.logo-sub {
   margin: .5em;
 }
 
+.ss, .ssf {
+  font-size: .8em;
+  font-weight: 900;
+}
+.ss {
+  position: relative;
+  left: -.1em;
+  top: -.1em;
+  font-weight: 700;
+}
+.ssf {
+  margin-top: .15em;
+  margin-left: -.1em;
+  font-weight: 700;
+}
+
 .controls select, .controls button {
   min-width: 150px;
   margin: 0 0.5em;
@@ -50,6 +69,14 @@ button {
   background-color: #2D3640;
   border: none;
   
+}
+select {
+  border: 1px solid #2D3640;
+  color: #2D3640;
+  background-color: white;
+}
+select option {
+  text-align: center;
 }
 
 div.all-notes {

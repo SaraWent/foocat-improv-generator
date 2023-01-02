@@ -2,7 +2,7 @@
 
     {
         "name": "I",
-        "type": ["Major", "Major 7th"],
+        "type": ["major", "major 7th"],
         "i": [0, 2, 4, 6]
     },
     {
@@ -17,12 +17,12 @@
     },
     {
         "name": "IV",
-        "type": ["Major", "Major 7th"],
+        "type": ["major", "major 7th"],
         "i": [3, 5, 0, 2]
     },
     {
         "name": "V",
-        "type": ["Major", "Dominant 7th"],
+        "type": ["major", "dominant 7th"],
         "i": [4, 6, 1, 3]
     },
     {
