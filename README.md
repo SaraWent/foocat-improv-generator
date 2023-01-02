@@ -10,6 +10,8 @@ to do next:
 
 • create an svg circle of fifths through which user can choose which keys are included in the list and random selection.
 
+• include image of key signature in bar form for each key
+
 • include common key progressions for each key
 
 • add modes for each key
