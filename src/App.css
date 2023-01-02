@@ -3,8 +3,12 @@
   background-color: #fff;
   color: #2D3640;
 }
-b {
-  font-weight: 700;
+
+h1, h2 {
+  font-weight: 500;
+}
+h2 {
+  font-size: 1.75em;
 }
 
 .container {
@@ -16,7 +20,7 @@ b {
 }
 
 .logo {
-  max-width: 82px;
+  max-width: 100px;
   margin: auto;
 }
 span.logo-sub {
@@ -29,14 +33,14 @@ span.logo-sub {
 
 .controls {
   display: block;
-  padding: .5em 1em 1em;
+  padding: .5em 1em 1.5em 1em;
   background-color: #B3D6FF;
-  border-radius: .25em;
+  border-radius: .5em;
   text-align: center;
 
-}
+} 
 
-.controls h2 {
+.controls h3 {
   margin: .5em;
 }
 
@@ -80,9 +84,12 @@ select option {
 }
 
 div.all-notes {
-  border-bottom: 1px solid #eaeaea;
-  margin-bottom: .25em;
-  padding-bottom: .25em;
+  padding: 0 .25em .25em .25em;
+
+}
+
+div.all-notes:nth-child(odd)  {
+  background-color: #b3d6ff26;
 }
 
 span.chord-type {

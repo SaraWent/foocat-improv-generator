@@ -22,7 +22,7 @@ const KeyParams = () => {
       <div className="logo"><img src={foocat} alt="foocat logo"></img></div>
       <span className="logo-sub">Improv Generator Alpha 1.0</span>
       <div className="controls">
-      <h2>Select a key</h2>
+      <h3>Select a key</h3>
       <select
         id="keylist"
         onChange={(e) => {
