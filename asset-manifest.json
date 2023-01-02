@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/foocat-improv-generator/static/css/main.0ca9e362.css",
-    "main.js": "/foocat-improv-generator/static/js/main.caf5d830.js",
+    "main.css": "/foocat-improv-generator/static/css/main.7d3f9fbd.css",
+    "main.js": "/foocat-improv-generator/static/js/main.1875f17b.js",
     "static/js/787.f1f2dcbe.chunk.js": "/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js",
     "static/media/foocat.svg": "/foocat-improv-generator/static/media/foocat.feced01e3331936fe7af30b53079fb6d.svg",
     "index.html": "/foocat-improv-generator/index.html",
-    "main.0ca9e362.css.map": "/foocat-improv-generator/static/css/main.0ca9e362.css.map",
-    "main.caf5d830.js.map": "/foocat-improv-generator/static/js/main.caf5d830.js.map",
+    "main.7d3f9fbd.css.map": "/foocat-improv-generator/static/css/main.7d3f9fbd.css.map",
+    "main.1875f17b.js.map": "/foocat-improv-generator/static/js/main.1875f17b.js.map",
     "787.f1f2dcbe.chunk.js.map": "/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ca9e362.css",
-    "static/js/main.caf5d830.js"
+    "static/css/main.7d3f9fbd.css",
+    "static/js/main.1875f17b.js"
   ]
 }
