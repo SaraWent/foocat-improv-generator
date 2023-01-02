@@ -12,6 +12,8 @@ to do next:
 
 • include common key progressions for each key
 
+• add modes for each key
+
 &nbsp;
 
 Info for this app inspired by and created from:
