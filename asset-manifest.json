@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/foocat-improv-generator/static/css/main.a0faa477.css",
+    "main.css": "/foocat-improv-generator/static/css/main.bb7826eb.css",
     "main.js": "/foocat-improv-generator/static/js/main.7a750b1c.js",
     "static/js/787.f1f2dcbe.chunk.js": "/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js",
     "static/media/foocat.svg": "/foocat-improv-generator/static/media/foocat.feced01e3331936fe7af30b53079fb6d.svg",
     "index.html": "/foocat-improv-generator/index.html",
-    "main.a0faa477.css.map": "/foocat-improv-generator/static/css/main.a0faa477.css.map",
+    "main.bb7826eb.css.map": "/foocat-improv-generator/static/css/main.bb7826eb.css.map",
     "main.7a750b1c.js.map": "/foocat-improv-generator/static/js/main.7a750b1c.js.map",
     "787.f1f2dcbe.chunk.js.map": "/foocat-improv-generator/static/js/787.f1f2dcbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0faa477.css",
+    "static/css/main.bb7826eb.css",
     "static/js/main.7a750b1c.js"
   ]
 }
