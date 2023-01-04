@@ -85,7 +85,6 @@ select option {
 
 div.all-notes {
   padding: 0 .25em .25em .25em;
-
 }
 
 div.all-notes:nth-child(odd)  {
@@ -114,6 +113,24 @@ div.notes {
 
 span.note {
   display: flex;
+}
+
+span.prog {
+  display: inline-block;
+  margin-right: 1em;
+}
+span.prog-sm {
+  font-size: .8em;
+  margin-right: .5em;
+  display: inline-block;
+}
+
+div.chordProg {
+  padding: .25em .25em .5em .25em;
+}
+
+div.chordProg:nth-child(even)  {
+  background-color: #b3d6ff26;
 }
 
 

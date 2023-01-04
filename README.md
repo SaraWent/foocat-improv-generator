@@ -1,4 +1,4 @@
-# foo.cat Improv Generator Alpha 1.0
+# foo.cat Improv Generator Alpha 1.1
 
 Created from a need to push myself out of my comfort zone on the violin and to think less in sheet music and more in chords.
 
@@ -11,8 +11,6 @@ to do next:
 • create an svg circle of fifths through which user can choose which keys are included in the list and random selection.
 
 • include image of key signature in bar form for each key
-
-• include common key progressions for each key
 
 • add modes for each key
 

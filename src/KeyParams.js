@@ -20,7 +20,7 @@ const KeyParams = () => {
   return (
     <div className="container">
       <div className="logo"><img src={foocat} alt="foocat logo"></img></div>
-      <span className="logo-sub">Improv Generator Alpha 1.0</span>
+      <span className="logo-sub">Improv Generator Alpha 1.01</span>
       <div className="controls">
       <h3>Select a key</h3>
       <select
