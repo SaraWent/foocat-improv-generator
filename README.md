@@ -8,11 +8,16 @@ This app includes all the keys included on a circle of fifths, and provides the 
 
 to do next:
 
-• create an svg circle of fifths through which user can choose which keys are included in the list and random selection.
-
 • include image of key signature in bar form for each key
 
 • add modes for each key
+
+• add option to play sound for each key and chord
+
+• look into accessibility options for SVG navigation
+
+• ~~create an svg circle of fifths through which user can choose which keys are included in the list and random selection.~~
+
 
 &nbsp;
 
