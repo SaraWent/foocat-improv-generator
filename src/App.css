@@ -153,14 +153,6 @@ div.chordProg:nth-child(even)  {
   fill: #86A1BF;
 }
 
-.slice:hover g.bg path {
-  fill: #2D3640;
-}
-
-.slice.active:hover g.bg path {
-  fill: black;
-}
-
 .slice.active g.bg path {
   fill: #2D3640;
 }
@@ -179,6 +171,13 @@ div.chordProg:nth-child(even)  {
   }
   .html, body {
     background-color: #86A1BF;
+  }
+  .slice:hover g.bg path {
+    fill: #2D3640;
+  }
+  
+  .slice.active:hover g.bg path {
+    fill: black;
   }
  }
 
