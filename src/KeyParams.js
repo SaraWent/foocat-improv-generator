@@ -41,8 +41,8 @@ const KeyParams = () => {
       <div className="logo"><img src={foocat} alt="foocat logo"></img></div>
       <span className="logo-sub">Improv Generator Alpha 1.01</span>
       <div className="controls">
-      <h3>Select a key</h3>
-      <p className="subtext">click to remove the hard ones ;)<br/>...or don't, you badass!</p>
+      <h3>Available Keys</h3>
+      <p className="subtext">All keys are selected by default.<br/>click to remove ones you don't want to work with.</p>
       <CircleOfFifths deseKeys={deseKeys}/>
       <p className="subtext">choose a key, or pick a random key</p>
       
