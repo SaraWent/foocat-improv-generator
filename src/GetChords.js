@@ -33,8 +33,8 @@ const GetChords = ({ props }) => {
         <span className="ss">{props.root[1] ? props.root[1] : ""}</span>{" "}
         {props.type} key:
       </h3>
-      {props.notes.map((n) => (
-        <span key={n.name}>
+      {props.notes.map((n, index) => (
+        <span key={`${n.name}-${index.toString()}`}>
           {n[0]}
           <span className="ss">{n[1] ? n[1] : ""}</span>{" "}
         </span>
@@ -48,8 +48,8 @@ const GetChords = ({ props }) => {
       </h3>
 
       <div className="all-chords">
-        {thisKey.map((c) => (
-          <div className="all-notes" key={c.name}>
+        {thisKey.map((c, index) => (
+          <div className="all-notes" key={`${c.name}-${index.toString()}`}>
             <b>
               <span className="chord-type">{c.name}:</span>
               <span className="chord-name">
@@ -91,17 +91,17 @@ const GetChords = ({ props }) => {
       </div>
 
       <h3>common chord progressions:</h3>
-        {thisProg.map((p) => {
+        {thisProg.map((p, index) => {
           return (
-            <div className="chordProg">
-              {p.map((c, i) => {
+            <div key={`${p.name}-${index.toString()}`} className="chordProg">
+              {p.map((c, index) => {
                 return (
-                  <span id={`${c}-${i}`} className="prog">
+                  <span key={`${c.name}-${index.toString()}`} className="prog">
                     <span className="prog-sm"><b>{`${c}: `}</b></span>
                     {thisKey
                       .filter((key) => key.name === c)
-                      .map((filteredKey) => (
-                        <span>
+                      .map((filteredKey, index) => (
+                        <span key={`${filteredKey.name}-${index.toString()}`}>
                           {props.notes[filteredKey.i[0]][0]}<span className="ss">{props.notes[filteredKey.i[0]][1]}</span>
                           <span className="prog-sm">{filteredKey.type[0] === "major" ? "M" : "m"}</span>
                         </span>

@@ -1,6 +1,8 @@
-import React from "react";
+import { useState } from "react";
 import './App.css';
 import KeyParams from './KeyParams';
+import keys from "./data/keys.json";
+
 
 // pull major/minor key from note
 // get chords for key
@@ -15,9 +17,8 @@ import KeyParams from './KeyParams';
 
 function App() {
 
-
   return (
-    <KeyParams/>
+      <KeyParams/>
   );
 }
 

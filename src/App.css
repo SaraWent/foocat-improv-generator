@@ -14,6 +14,11 @@ h3 {
   margin: .75em 0;
 }
 
+p.subtext {
+  font-size: .8em;
+  font-weight: bold;
+}
+
 .container {
   background-color: #fff;
   margin: 0 auto;
@@ -136,6 +141,29 @@ div.chordProg:nth-child(even)  {
   background-color: #b3d6ff26;
 }
 
+.circle-of-fifths {
+  display: block;
+}
+.circle-of-fifths svg {
+  max-width: 400px;
+  margin: .5em auto 0 auto;
+}
+
+.slice g.bg path {
+  fill: #86A1BF;
+}
+
+.slice:hover g.bg path {
+  fill: #2D3640;
+}
+
+.slice.active:hover g.bg path {
+  fill: black;
+}
+
+.slice.active g.bg path {
+  fill: #2D3640;
+}
 
 
 /* // Small devices (landscape phones, 576px and up)

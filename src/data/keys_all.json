@@ -72,6 +72,30 @@
     "notes": ["G♯", "A♯", "B", "C♯", "D♯", "E", "F♯"]
   },
   {
+    "name": "C♭ major",
+    "root": "C♭",
+    "type": "major",
+    "notes": ["C♭", "D♭", "E♭", "F♭", "G♭", "A♭", "B♭"]
+  },
+  {
+    "name": "A♭ minor",
+    "root": "A♭",
+    "type": "minor",
+    "notes": ["A♭", "B♭", "C♭", "D♭", "E♭", "F♭", "G♭"]
+  },
+  {
+    "name": "F♯ major",
+    "root": "F♯",
+    "type": "major",
+    "notes": ["F♯", "G♯", "A♯", "B", "C♯", "D♯", "E♯"]
+  },
+  {
+    "name": "D♯ minor",
+    "root": "D♯",
+    "type": "minor",
+    "notes": ["D♯", "E♯", "F♯", "G♯", "A♯", "B", "C♯"]
+  },
+  {
     "name": "G♭ major",
     "root": "G♭",
     "type": "major",
@@ -82,6 +106,18 @@
     "root": "E♭",
     "type": "minor",
     "notes": ["E♭", "F", "G♭", "A♭", "B♭", "C♭", "D♭"]
+  },
+  {
+    "name": "C♯ major",
+    "root": "C♯",
+    "type": "major",
+    "notes": ["C♯", "D♯", "E♯", "F♯", "G♯", "A♯", "B♯", "C♯"]
+  },
+  {
+    "name": "A♯ minor",
+    "root": "A♯",
+    "type": "minor",
+    "notes": ["A♯", "B♯", "C♯", "C♯", "D♯", "E♯", "F♯", "G♯"]
   },
   {
     "name": "D♭ major",
