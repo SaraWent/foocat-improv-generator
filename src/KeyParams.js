@@ -39,7 +39,7 @@ const KeyParams = () => {
   return (
     <div className="container">
       <div className="logo"><img src={foocat} alt="foocat logo"></img></div>
-      <span className="logo-sub">Improv Generator Alpha 1.02</span>
+      <span className="logo-sub">Improv Generator Alpha 1.01</span>
       <div className="controls">
       <h3>Select a key</h3>
       <p className="subtext">click to remove the hard ones ;)<br/>...or don't, you badass!</p>
@@ -62,8 +62,8 @@ const KeyParams = () => {
       <button
         onClick={() => {
           let val = Math.floor(Math.random() * selectedKeys.length);
-          selectRef.current.value = selectedKeys[val];
-          setNewKey(keys[val]);
+          document.getElementById("keylist").value = selectedKeys[val];
+          setNewKey(keys.find(item => item.name === selectedKeys[val]));
         }}
       >
         Surprise Me
