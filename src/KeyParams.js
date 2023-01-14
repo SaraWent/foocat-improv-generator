@@ -9,14 +9,13 @@ import CircleOfFifths from "./CircleOfFifths";
 
 
 const KeyParams = () => {
-  const initialKeys = keys.map((n)=>n.name)
+  
+  const initialKeys = keys.map((n)=>n.name);
+
   const [selectedKeys, setSelectedKeys] = useState(initialKeys);
   const [newKey, setNewKey] = useState(keys[0]);
 
   const selectRef= useRef(null);
-
-
-  
 
   const GetMajorChord = (X) => {
     let majorChord = [[X.notes[0]], [X.notes[2]], [X.notes[4]], [X.notes[6]]];
@@ -62,7 +61,7 @@ const KeyParams = () => {
       <button
         onClick={() => {
           let val = Math.floor(Math.random() * selectedKeys.length);
-          document.getElementById("keylist").value = selectedKeys[val];
+          selectRef.current.value = selectedKeys[val];
           setNewKey(keys.find(item => item.name === selectedKeys[val]));
         }}
       >
